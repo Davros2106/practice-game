@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<html ng-app="tombola.practiceGame" ng-controller="bingoTicketController">
+
+<head lang="en">
+
+    <script type="text/javascript" src='/node_modules/angular/angular.min.js'></script>
+    <link rel="stylesheet" type="text/css" href="/less/main.min.css">
+
+</head>
+
+<body>
+<game-square cellNumber="0"></game-square>
+<game-square cellNumber="1"></game-square>
+<game-square cellNumber="2"></game-square>
+<game-square cellNumber="3"></game-square>
+<game-square cellNumber="4"></game-square>
+<game-square cellNumber="5"></game-square>
+
+
+<aside>
+    <game-result result="0"></game-result>
+    <game-result result="1"></game-result>
+    <game-result result="2"></game-result>
+    <game-result result="3"></game-result>
+    <game-result result="4"></game-result>
+    <game-result result="5"></game-result>
+
+</aside>
+
+</body>
+
+
+<script src="scripts/built.js"></script>
+
+
+</html>
